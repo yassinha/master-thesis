@@ -33,7 +33,7 @@ In:
 	Jönköping, Sweden. December 2018.
 
 
-About this module
+## About mlsaa.py module
 
 Module name:
 	The name of this module is: "MLSAA: Multi-label Sentiment Analysis Application"
@@ -67,3 +67,13 @@ Example:
 	>>> import mlsaa
         
 	>>> mlsaa.classify(d="dataset_name", ct=1, pt=1, cl=1)
+	
+## About run.py module
+
+This module is for running the experiments in the paper. 
+
+Example:
+	To run experiment EXP10 as in the thesis
+	
+	$ python run.py EXP10
+
