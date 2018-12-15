@@ -1,6 +1,5 @@
 
-# master-thesis
-Master Thesis Work
+# Master Thesis Work
 
 The master thesis work has been carried out at the School of Engineering in Jönköping in
 	the subject area “Sentiment Analysis using Multi-label Machine Learning Techniques”.
