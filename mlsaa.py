@@ -491,7 +491,7 @@ def get_labels(dataset_name = "preprocessed_labeled", sentiment = True,
 					label += "C3" if data["is_comparative_label"][i] == "Yes" else "C4"
 				if aspects_based:
 					label += "C5" if data["is_aspects_based_label"][i] == "Yes" else "C6"
-				else: labels.append(label)
+				labels.append(label)
 			labels = np.asarray(labels)
 	else:
 		print("At least one label need to be set to True in arguments")
