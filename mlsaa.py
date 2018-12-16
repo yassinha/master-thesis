@@ -216,7 +216,7 @@ def classify(dataset_name = "preprocessed_labeled", ct = 1, pt = 1, cl = 1,
 			classifier_name = "CL2 - SVM - Support Vector Machine"
 		elif cl == 3: 
 			classifier = LogisticRegression()
-			classifier_name = "CL3 - SVM - Support Vector Machine"
+			classifier_name = "CL3 - MaxEnt - Maximum Entropy"
 		elif cl == 4: 
 			classifier = KNeighborsClassifier(n_neighbors=100)
 			classifier_name = "CL4 - kNN - k-Nearest Neighbors"
