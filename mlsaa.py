@@ -122,7 +122,7 @@ classification_model = None
 # 	train and test the classfication model, and evaluating it.
 def classify(dataset_name = "preprocessed_labeled", ct = 1, pt = 1, cl = 1,
 	ts = 0.25, fo = 10, bi = True, mf = 5000, minn = 1, maxn = 3,
-	se = True, co = True, ab = True, dt = False):
+	se = True, co = True, ab = True, dt = False, cf = False):
 
 	"""The function contains the code to sample the labeled dataset after preprocessing,
 			train and test the classfication model, and evaluating it.
