@@ -53,13 +53,13 @@ The main functions discussed in the thesis are listed below:
 	transform_labels: Transforms the labels into a multi-label format.
 	classify: Run the classification model which includes the multi-label 
 	classification technique, machine learning classifier, dataset sampling,
-		features selection, and evaluation functions.
+	features selection, and evaluation functions.
 
 
 Example:
 		$ python
-        >>> import mlsaa
-        >>> mlsaa.classify(d="dataset_name", ct=1, pt=1, cl=1)
+		>>> import mlsaa
+		>>> mlsaa.classify(d="dataset_name", ct=1, pt=1, cl=1)
 """
 # Importing general required modules
 import pandas as pd
@@ -1357,8 +1357,8 @@ References:
 		keywords = {Computer Science - Learning, Computer Science - Mathematical Software},
 		year = 2017,
 		month = feb,
-    }
-    @inproceedings{read2009classifier,
+	}
+	@inproceedings{read2009classifier,
 		title={Classifier chains for multi-label classification},
 		author={Read, Jesse and Pfahringer, Bernhard and Holmes, Geoff and Frank, Eibe},
 		booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
