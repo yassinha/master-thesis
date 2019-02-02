@@ -48,7 +48,7 @@ elif experiment == "EXP10":
 elif experiment == "EXP11":
 	mlsaa.classify(dataset_name="preprocessed_labeled", ct=1, pt=0, cl=5)
 elif experiment == "EXP12":
-	mlsaa.classify(dataset_name="preprocessed_labeled", ct=1, pt=0, cl=6, fo=3)
+	mlsaa.classify(dataset_name="preprocessed_labeled", ct=1, pt=0, cl=6)
 elif experiment == "EXP13":
 	mlsaa.classify(dataset_name="preprocessed_labeled", ct=2, pt=0, cl=7)
 elif experiment == "EXP14":
